@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="aplikasi.mobile.listviewimage">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_gambar_aplikasi"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon_gambar_aplikasi"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/AppTheme">
+
+
+        <activity android:name=".Menu_Daftar_Makanan"/>
+        <activity android:name=".Menu_Detail_Makanan" />
+        <activity android:name=".Menu_Daftar_Wisata"/>
+        <activity android:name=".Menu_Detail_Wisata" />
+        <activity android:name=".Daftar_Penginapan"/>
+        <activity android:name=".Detail_Penginapan" />
+        <activity android:name=".Cuaca"/>
+        <activity android:name =".SholatActivity"/>
+        <activity android:name=".About"/>
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

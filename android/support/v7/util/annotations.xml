@@ -1,0 +1,5 @@
+<root>
+    <item name='android.support.v7.util.SortedList.Callback'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+</root>
